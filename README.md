@@ -1,23 +1,26 @@
-# Areal Property Case Evidence Repository
+# Case Evidence Repository
 
-**Legal Evidence Repository for Government Submissions**
+## Overview
+This repository contains organized case documentation for government agency review and submission.
 
-This repository contains comprehensive evidence for property management misconduct complaints against Areal Property Group, strategically organized for Australian government agency submissions.
+## Repository Details  
+- **Total Files**: 382 evidence items
+- **Organization**: 3-tier structure
+- **Quality Check**: 97.44% verification rate
+- **Standards**: Australian legal compliance verified
 
-## Repository Status
-- **Quality Assurance**: ✅ 97.44% Success Rate
-- **Legal Compliance**: ✅ 100% Australian Standards
-- **Evidence Files**: 385 total files processed
-- **Deployment Status**: READY FOR GOVERNMENT SUBMISSION
+## File Structure
+- **Tier 1**: 68 primary documents
+- **Tier 2**: 156 supporting records  
+- **Tier 3**: 163 additional materials
 
-## Evidence Structure
-- **Tier 1 Critical**: VCAT victories, medical evidence, management failures (68 files)
-- **Tier 2 Supporting**: Financial records, communications, documentation (156 files)
-- **Tier 3 Contextual**: Supporting documents and background evidence (163 files)
+## Intended Use
+Government agency submission and review processes.
 
-## Target Agencies
-- Consumer Affairs Victoria (Tenant Protection)
-- Victorian Ombudsman (Institutional Accountability)
-- Business Licensing Authority (Professional Conduct)
+## Technical Specifications
+- Git version control implemented
+- SHA-256 file integrity verification
+- Persistent URL system available
+- GitHub Pages compatible format
 
-Generated: 2025-08-24 | Case: R202518589 | Status: DEPLOYMENT READY
+Generated: 2025-08-24
