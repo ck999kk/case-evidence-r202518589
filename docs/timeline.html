@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Evidence R202518589 - Timeline View</title>
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f8fafc;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: #1e293b;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.875rem;
+        }
+        .nav {
+            padding: 1rem 2rem;
+            background: #f1f5f9;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .nav a {
+            color: #3b82f6;
+            text-decoration: none;
+            margin-right: 1rem;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 1rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e2e8f0;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.5rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            background: #3b82f6;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #3b82f6;
+        }
+        .timeline-date {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 1.125rem;
+            margin-bottom: 0.5rem;
+        }
+        .timeline-documents {
+            background: #f8fafc;
+            border-radius: 6px;
+            padding: 1rem;
+            border: 1px solid #e2e8f0;
+        }
+        .doc-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .doc-item:last-child {
+            border-bottom: none;
+        }
+        .doc-title {
+            font-weight: 500;
+            color: #1e293b;
+        }
+        .doc-type {
+            font-size: 0.875rem;
+            color: #64748b;
+            background: #f1f5f9;
+            padding: 0.25rem 0.5rem;
+            border-radius: 3px;
+            margin-left: 0.5rem;
+        }
+        .doc-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .btn {
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+        .btn-secondary {
+            background: #64748b;
+            color: white;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            text-align: center;
+            padding: 1rem;
+            background: #f8fafc;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e293b;
+        }
+        .stat-label {
+            font-size: 0.875rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .vcat-highlight {
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+        }
+        .vcat-highlight::before {
+            background: #f59e0b;
+            box-shadow: 0 0 0 3px #f59e0b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Case Evidence R202518589 - Timeline View</h1>
+            <p>Chronological Evidence Documentation | Melbourne VIC</p>
+        </div>
+        
+        <div class="nav">
+            <a href="index.html">← Back to Portal</a>
+            <a href="#june-2025">June 2025</a>
+            <a href="#july-2025">July 2025</a>
+            <a href="#vcat-victory">VCAT Victory</a>
+        </div>
+        
+        <div class="content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Months Documented</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">VCAT Victory</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Critical Events</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">41</div>
+                    <div class="stat-label">Evidence Files</div>
+                </div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item vcat-highlight" id="june-2025">
+                    <div class="timeline-date">June 2025 - VCAT LEGAL VICTORY</div>
+                    <div class="timeline-documents">
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">24-06-2025 - Applicant 1 - Application</span>
+                                <span class="doc-type">VCAT Application</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/5ebb97ad11886ed233cc42ff0178265ad60e3274.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/5ebb97ad11886ed233cc42ff0178265ad60e3274.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">27-06-2025 - Strike out - Consent order - Order f058873a</span>
+                                <span class="doc-type">🏆 LEGAL VICTORY</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/66c6f6ea6c47d5d4c25def78fb9c73f589b4a180.pdf" target="_blank" class="btn btn-primary">View Victory</a>
+                                <a href="p/66c6f6ea6c47d5d4c25def78fb9c73f589b4a180.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">VCAT Application R202518214 - Notice to Vacate Challenge</span>
+                                <span class="doc-type">Legal Challenge</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/8098239e4ab261b4fd43f923e228a2968f7bf9a3.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/8098239e4ab261b4fd43f923e228a2968f7bf9a3.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" id="july-2025">
+                    <div class="timeline-date">July 2025 - Critical Evidence Period</div>
+                    <div class="timeline-documents">
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Notice of entry 7 July 2025</span>
+                                <span class="doc-type">Official Notice</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/4b7a6800930cfa9b9740a5483dcbb0a55a6ba04d.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/4b7a6800930cfa9b9740a5483dcbb0a55a6ba04d.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Notice of entry 8 July 2025</span>
+                                <span class="doc-type">Official Notice</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/0347cbdd36dd87dad0d447f6852ee4f5b4773e97.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/0347cbdd36dd87dad0d447f6852ee4f5b4773e97.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Notice of entry 9 July 2025</span>
+                                <span class="doc-type">Official Notice</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/2a2d904dd0df1506b9d08b8a61d0d6f176f3ac2a.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/2a2d904dd0df1506b9d08b8a61d0d6f176f3ac2a.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">NTE 10-07, NTE 11-07, NTE 14-07, NTE 15-07</span>
+                                <span class="doc-type">Notice Series</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/301a9230bfbbf7389a21788626849c811d2cc75a.pdf" target="_blank" class="btn btn-primary">View Series</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Evidence Exhibits - Investigation & Documentation</div>
+                    <div class="timeline-documents">
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Exhibit A (16-06-2025 04:37)</span>
+                                <span class="doc-type">Evidence Exhibit</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/cc2e43a1aae36f6ba84fb701b737a7e12f4cce38.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/cc2e43a1aae36f6ba84fb701b737a7e12f4cce38.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Exhibit B (16-06-2025 11:52)</span>
+                                <span class="doc-type">Evidence Exhibit</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/7ea7cfe84d7973422a36b4575707d9c444b165e4.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/7ea7cfe84d7973422a36b4575707d9c444b165e4.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Exhibit C (23-06-2025 15:05)</span>
+                                <span class="doc-type">Evidence Exhibit</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/56b86487eb4bd6a5fa4dd1af6eaa84601a4477b8.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/56b86487eb4bd6a5fa4dd1af6eaa84601a4477b8.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Exhibit D (27-06-2025 15:09)</span>
+                                <span class="doc-type">Evidence Exhibit</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/7c2b86ea7cc40345b517eba2553d2ed66ac8e26e.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/7c2b86ea7cc40345b517eba2553d2ed66ac8e26e.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">FIXD Investigation Report</span>
+                                <span class="doc-type">Professional Investigation</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/86a2a540507f2e09f9eb820b271f3453683ba950.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/86a2a540507f2e09f9eb820b271f3453683ba950.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Financial Documentation</div>
+                    <div class="timeline-documents">
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Receipt Series (#85835, #87045, #88184, #89393, #90497, #91716)</span>
+                                <span class="doc-type">Financial Records</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/5504c44086c6b68fcd3c74e4006cf6dac1bde3ba.pdf" target="_blank" class="btn btn-primary">View Series</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Tax Invoice & Financial Impact</span>
+                                <span class="doc-type">Cost Documentation</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/ca4f46af363c81c8a54732a7a5d2a00de81da1b5.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/ca4f46af363c81c8a54732a7a5d2a00de81da1b5.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Communication & Legal Actions</div>
+                    <div class="timeline-documents">
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Formal Demand Letter</span>
+                                <span class="doc-type">Legal Correspondence</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/a89f1978011db82253fc29f2066e25f1b399fa68.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/a89f1978011db82253fc29f2066e25f1b399fa68.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Message Thread Franklin St</span>
+                                <span class="doc-type">Communication Record</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/0732ddd4107342d7b8c66c9b8fa35893e9c633ca.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/0732ddd4107342d7b8c66c9b8fa35893e9c633ca.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <div>
+                                <span class="doc-title">Tenant Statement & Response</span>
+                                <span class="doc-type">Official Response</span>
+                            </div>
+                            <div class="doc-actions">
+                                <a href="web/viewer.html?file=../p/96bdd9fb80cbfad954e17c400d43b6ae4b9cc21e.pdf" target="_blank" class="btn btn-primary">View</a>
+                                <a href="p/96bdd9fb80cbfad954e17c400d43b6ae4b9cc21e.pdf" target="_blank" class="btn btn-secondary">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Highlight VCAT victory items
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add animation to the VCAT victory section
+            const vcatSection = document.querySelector('.vcat-highlight');
+            if (vcatSection) {
+                setTimeout(() => {
+                    vcatSection.style.animation = 'pulse 2s infinite';
+                }, 1000);
+            }
+        });
+
+        // Add CSS for pulse animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.02); }
+                100% { transform: scale(1); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
