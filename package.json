@@ -1,0 +1,27 @@
+{
+  "name": "case-evidence-r202518589",
+  "version": "1.0.0",
+  "description": "This repository contains organized case documentation for government agency review and submission.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ck999kk/case-evidence-r202518589.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ck999kk/case-evidence-r202518589/issues"
+  },
+  "homepage": "https://github.com/ck999kk/case-evidence-r202518589#readme",
+  "private": "true",
+  "dependencies": {
+    "pdfjs-dist": "^5.4.54"
+  }
+}

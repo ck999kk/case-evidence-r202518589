@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract 5.5.1' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_dir ocrp_lang ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "/var/folders/sg/28lw69556pscnwsgnms5w20m0000gn/T/tmp9z2lyh13/page-3.png"; bbox 0 0 1240 1754; ppageno 0; scan_res 150 150'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 97 69 362 107">
+    <p class='ocr_par' id='par_1_1' lang='eng' title="bbox 97 69 362 107">
+     <span class='ocr_line' id='line_1_1' title="bbox 97 69 362 99; baseline 0 -15; x_size 24.25; x_descenders 5.5; x_ascenders 6.25">
+      <span class='ocrx_word' id='word_1_1' title='bbox 97 74 122 99; x_wconf 46'>43</span>
+      <span class='ocrx_word' id='word_1_2' title='bbox 133 69 216 84; x_wconf 89'>AusPost</span>
+      <span class='ocrx_word' id='word_1_3' title='bbox 223 69 362 88; x_wconf 86'>lodgement.pdf</span>
+     </span>
+     <span class='ocr_line' id='line_1_2' title="bbox 135 92 181 107; baseline 0 0; x_size 19.4; x_descenders 4.4000001; x_ascenders 5">
+      <span class='ocrx_word' id='word_1_4' title='bbox 135 92 181 107; x_wconf 86'>104K</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_2' title="bbox 97 131 365 170">
+    <p class='ocr_par' id='par_1_2' lang='eng' title="bbox 97 131 365 170">
+     <span class='ocr_line' id='line_1_3' title="bbox 97 131 365 162; baseline 0 -16; x_size 19; x_descenders 4; x_ascenders 4">
+      <span class='ocrx_word' id='word_1_5' title='bbox 97 137 122 162; x_wconf 39'>2</span>
+      <span class='ocrx_word' id='word_1_6' title='bbox 134 131 195 146; x_wconf 96'>Notice</span>
+      <span class='ocrx_word' id='word_1_7' title='bbox 202 131 220 146; x_wconf 96'>of</span>
+      <span class='ocrx_word' id='word_1_8' title='bbox 226 132 274 150; x_wconf 93'>entry</span>
+      <span class='ocrx_word' id='word_1_9' title='bbox 282 131 365 150; x_wconf 92'>lable.pdf</span>
+     </span>
+     <span class='ocr_line' id='line_1_4' title="bbox 135 155 180 170; baseline 0 0; x_size 19.852942; x_descenders 4.852941; x_ascenders 4.8529415">
+      <span class='ocrx_word' id='word_1_10' title='bbox 135 155 180 170; x_wconf 96'>136K</span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

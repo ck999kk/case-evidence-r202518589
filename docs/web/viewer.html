@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html dir="ltr" mozdisallowselectionprint moznomarginboxes>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>PDF Viewer</title>
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <link rel="stylesheet" href="pdf_viewer.css">
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div class="toolbar">
+        <div id="toolbarContainer">
+          <div id="toolbarViewer">
+            <div id="numPages" class="toolbarLabel"></div>
+            <input type="number" id="pageNumber" class="toolbarField pageNumber" value="1" size="4" min="1" tabindex="21">
+            <span id="numPages" class="toolbarLabel"></span>
+            <button id="previous" class="toolbarButton pageUp" title="Previous Page" tabindex="22">
+              <span>Previous</span>
+            </button>
+            <button id="next" class="toolbarButton pageDown" title="Next Page" tabindex="23">
+              <span>Next</span>
+            </button>
+            <input id="scaleSelect" class="toolbarField" value="auto" tabindex="24">
+          </div>
+        </div>
+      </div>
+      <div id="viewerContainer" tabindex="0">
+        <div id="viewer" class="pdfViewer"></div>
+      </div>
+    </div>
+    
+    <script type="module">
+      import { getDocument, GlobalWorkerOptions } from '../build/pdf.mjs';
+      
+      // Set worker source
+      GlobalWorkerOptions.workerSrc = '../build/pdf.worker.mjs';
+      
+      // Basic PDF viewer implementation
+      let pdfDoc = null;
+      let pageNum = 1;
+      let pageRendering = false;
+      let pageNumPending = null;
+      const scale = 1.5;
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      
+      // Get PDF URL from query parameter
+      const urlParams = new URLSearchParams(window.location.search);
+      const pdfUrl = urlParams.get('file');
+      
+      if (pdfUrl) {
+        // Load PDF
+        getDocument(pdfUrl).promise.then(function(pdf) {
+          pdfDoc = pdf;
+          document.getElementById('numPages').textContent = 'of ' + pdf.numPages;
+          renderPage(pageNum);
+        });
+      }
+      
+      function renderPage(num) {
+        pageRendering = true;
+        pdfDoc.getPage(num).then(function(page) {
+          const viewport = page.getViewport({scale: scale});
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;
+          
+          const renderContext = {
+            canvasContext: ctx,
+            viewport: viewport
+          };
+          
+          const renderTask = page.render(renderContext);
+          renderTask.promise.then(function() {
+            pageRendering = false;
+            if (pageNumPending !== null) {
+              renderPage(pageNumPending);
+              pageNumPending = null;
+            }
+            // Append canvas to viewer
+            const viewer = document.getElementById('viewer');
+            viewer.innerHTML = '';
+            viewer.appendChild(canvas);
+          });
+        });
+        document.getElementById('pageNumber').value = num;
+      }
+      
+      function queueRenderPage(num) {
+        if (pageRendering) {
+          pageNumPending = num;
+        } else {
+          renderPage(num);
+        }
+      }
+      
+      function onPrevPage() {
+        if (pageNum <= 1) return;
+        pageNum--;
+        queueRenderPage(pageNum);
+      }
+      
+      function onNextPage() {
+        if (pageNum >= pdfDoc.numPages) return;
+        pageNum++;
+        queueRenderPage(pageNum);
+      }
+      
+      // Button event listeners
+      document.getElementById('previous').addEventListener('click', onPrevPage);
+      document.getElementById('next').addEventListener('click', onNextPage);
+      
+      // Page input event listener
+      document.getElementById('pageNumber').addEventListener('change', function() {
+        const num = parseInt(this.value);
+        if (num >= 1 && num <= pdfDoc.numPages) {
+          pageNum = num;
+          queueRenderPage(pageNum);
+        }
+      });
+    </script>
+  </body>
+</html>
