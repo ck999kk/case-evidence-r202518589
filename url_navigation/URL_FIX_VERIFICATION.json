@@ -1,0 +1,22 @@
+{
+  "fix_summary": {
+    "timestamp": "2025-08-24T22:05:00",
+    "files_processed": 0,
+    "urls_fixed": 0,
+    "github_username": "areal-property-evidence",
+    "repository_name": "case-evidence-r202518589",
+    "base_url": "https://areal-property-evidence.github.io/case-evidence-r202518589"
+  },
+  "url_patterns": {
+    "github_pages": "https://areal-property-evidence.github.io/case-evidence-r202518589",
+    "raw_files": "https://raw.githubusercontent.com/areal-property-evidence/case-evidence-r202518589/main",
+    "blob_view": "https://github.com/areal-property-evidence/case-evidence-r202518589/blob/main",
+    "api_access": "https://api.github.com/repos/areal-property-evidence/case-evidence-r202518589"
+  },
+  "fix_log": [],
+  "verification_samples": {
+    "tier_1_critical": "https://areal-property-evidence.github.io/case-evidence-r202518589/evidence/tier-1-critical/",
+    "api_inventory": "https://raw.githubusercontent.com/areal-property-evidence/case-evidence-r202518589/main/_data/ai_file_inventory.json",
+    "vcat_documents": "https://areal-property-evidence.github.io/case-evidence-r202518589/evidence/tier-1-critical/vcat-documents/"
+  }
+}

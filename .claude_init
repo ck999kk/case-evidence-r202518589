@@ -1,0 +1,20 @@
+# Claude Code CLI Auto-Initialization for Evidence Directory
+# This file triggers autonomous initialization when Claude Code CLI starts
+
+# Execute autonomous initialization system
+~/.claude_workspace/memory/claude_auto_init.sh
+
+# Set environment variables for this session
+export CLAUDE_WORKSPACE="/Users/chawakornkamnuansil/.claude_workspace"
+export EVIDENCE_DIR="/Users/chawakornkamnuansil/Desktop/All_Case_Parties_20250824-1824"
+export LEGAL_CASE_TYPE="property_management_misconduct"
+export TARGET_AGENCIES="consumer_affairs_victoria,victorian_ombudsman,business_licensing_authority"
+
+# Enable AI context preservation
+export CLAUDE_CONTEXT_PRESERVATION="enabled"
+export CLAUDE_MEMORY_BACKUP="auto"
+export CLAUDE_PERFORMANCE_OPTIMIZATION="active"
+
+# Evidence protection mode
+export EVIDENCE_PROTECTION="strict"
+export PROCESSING_LOCATION="workspace_only"

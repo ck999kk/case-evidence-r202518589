@@ -1,0 +1,43 @@
+# Evidence Directory Protection - Government Submission Ready
+# This directory contains presentation-ready evidence for government agencies
+# No temporary, processing, or working files should be added
+
+# Workspace files (processed externally)
+*.tmp
+*.temp
+*_temp.*
+*_working.*
+processing_*
+workspace_*
+.workspace/
+temp/
+tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Log files
+*.log
+debug.txt
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Processing artifacts
+analysis_*
+output_*
+generated_*
+
+# Keep evidence directory clean for government submission
+# All processing should occur in ~/.claude_workspace/
