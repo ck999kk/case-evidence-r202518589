@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract 5.5.1' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_dir ocrp_lang ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "/var/folders/sg/28lw69556pscnwsgnms5w20m0000gn/T/tmpu3_q2rqy/page-4.png"; bbox 0 0 1241 1754; ppageno 0; scan_res 150 150'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 151 156 496 211">
+    <p class='ocr_par' id='par_1_1' lang='eng' title="bbox 151 156 496 211">
+     <span class='ocr_line' id='line_1_1' title="bbox 152 156 496 184; baseline 0 -6; x_size 28; x_descenders 6; x_ascenders 6">
+      <span class='ocrx_word' id='word_1_1' title='bbox 152 157 210 178; x_wconf 96'>Date</span>
+      <span class='ocrx_word' id='word_1_2' title='bbox 219 156 245 178; x_wconf 96'>of</span>
+      <span class='ocrx_word' id='word_1_3' title='bbox 252 156 496 184; x_wconf 96'>Acknowledgement</span>
+     </span>
+     <span class='ocr_line' id='line_1_2' title="bbox 151 193 272 211; baseline 0 -1; x_size 29.5; x_descenders 6.5; x_ascenders 6.5">
+      <span class='ocrx_word' id='word_1_4' title='bbox 151 193 272 211; x_wconf 92'>24/06/2025</span>
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_2' title="bbox 152 1636 1077 1683">
+    <p class='ocr_par' id='par_1_2' lang='eng' title="bbox 152 1636 1077 1683">
+     <span class='ocr_line' id='line_1_3' title="bbox 152 1636 1047 1657; baseline 0.001 -5; x_size 21; x_descenders 4; x_ascenders 4">
+      <span class='ocrx_word' id='word_1_5' title='bbox 152 1636 215 1653; x_wconf 96'>Rental</span>
+      <span class='ocrx_word' id='word_1_6' title='bbox 225 1636 300 1657; x_wconf 96'>Dispute</span>
+      <span class='ocrx_word' id='word_1_7' title='bbox 309 1636 414 1653; x_wconf 96'>Resolution</span>
+      <span class='ocrx_word' id='word_1_8' title='bbox 422 1636 497 1653; x_wconf 93'>Victoria</span>
+      <span class='ocrx_word' id='word_1_9' title='bbox 506 1636 583 1657; x_wconf 90'>(RDRV)</span>
+      <span class='ocrx_word' id='word_1_10' title='bbox 593 1636 607 1653; x_wconf 96'>is</span>
+      <span class='ocrx_word' id='word_1_11' title='bbox 615 1640 638 1653; x_wconf 96'>an</span>
+      <span class='ocrx_word' id='word_1_12' title='bbox 647 1636 761 1657; x_wconf 95'>appropriate</span>
+      <span class='ocrx_word' id='word_1_13' title='bbox 769 1636 842 1657; x_wconf 96'>dispute</span>
+      <span class='ocrx_word' id='word_1_14' title='bbox 850 1636 947 1653; x_wconf 96'>resolution</span>
+      <span class='ocrx_word' id='word_1_15' title='bbox 955 1636 991 1653; x_wconf 96'>and</span>
+      <span class='ocrx_word' id='word_1_16' title='bbox 1000 1640 1047 1653; x_wconf 96'>case</span>
+     </span>
+     <span class='ocr_line' id='line_1_4' title="bbox 152 1661 1077 1683; baseline -0.001 -4; x_size 21; x_descenders 4; x_ascenders 4">
+      <span class='ocrx_word' id='word_1_17' title='bbox 152 1663 284 1683; x_wconf 95'>management</span>
+      <span class='ocrx_word' id='word_1_18' title='bbox 291 1662 362 1679; x_wconf 95'>service</span>
+      <span class='ocrx_word' id='word_1_19' title='bbox 371 1662 456 1683; x_wconf 96'>provided</span>
+      <span class='ocrx_word' id='word_1_20' title='bbox 465 1662 487 1683; x_wconf 93'>by</span>
+      <span class='ocrx_word' id='word_1_21' title='bbox 494 1661 559 1679; x_wconf 92'>VCAT.</span>
+      <span class='ocrx_word' id='word_1_22' title='bbox 568 1662 595 1678; x_wconf 96'>An</span>
+      <span class='ocrx_word' id='word_1_23' title='bbox 604 1662 711 1683; x_wconf 96'>application</span>
+      <span class='ocrx_word' id='word_1_24' title='bbox 719 1663 737 1679; x_wconf 93'>to</span>
+      <span class='ocrx_word' id='word_1_25' title='bbox 746 1662 809 1678; x_wconf 90'>RDRV</span>
+      <span class='ocrx_word' id='word_1_26' title='bbox 817 1662 832 1679; x_wconf 96'>is</span>
+      <span class='ocrx_word' id='word_1_27' title='bbox 839 1666 863 1679; x_wconf 95'>an</span>
+      <span class='ocrx_word' id='word_1_28' title='bbox 871 1662 979 1683; x_wconf 95'>application</span>
+      <span class='ocrx_word' id='word_1_29' title='bbox 987 1663 1005 1679; x_wconf 92'>to</span>
+      <span class='ocrx_word' id='word_1_30' title='bbox 1012 1661 1077 1679; x_wconf 91'>VCAT.</span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
